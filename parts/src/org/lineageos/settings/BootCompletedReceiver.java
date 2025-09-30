@@ -31,7 +31,6 @@ import android.provider.Settings;
 import android.util.Log;
 import android.view.Display;
 
-import org.lineageos.settings.refreshrate.RefreshUtils;
 import org.lineageos.settings.thermal.ThermalTileService;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -69,8 +68,5 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
     private void startServices(Context context) {
         if (DEBUG) Log.i(TAG, "Starting services...");
-
-        // Start Refresh Rate Service
-        RefreshUtils.startService(context);
     }
 }
