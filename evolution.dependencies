@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "device_samsung_a71-common",
+    "target_path": "device/samsung/a71-common",
+	"branch": "bka"
+  },
+  {
+    "repository": "vendor_samsung_a71",
+    "target_path": "vendor/samsung/a71",
+	"branch": "bka"
+  }
+]
