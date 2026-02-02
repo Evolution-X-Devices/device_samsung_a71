@@ -20,7 +20,7 @@ $(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x20000000u)
 TARGET_USES_FOD_ZPOS := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := a71_defconfig
+TARGET_KERNEL_CONFIG := sdmmagpie_defconfig a71.config
 
 # NFC
 TARGET_USES_NQ_NFC := true
